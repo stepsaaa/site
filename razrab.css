@@ -1,0 +1,272 @@
+body {
+    font-family: "Comic Sans MS";
+    font-size: 17px;
+    padding: 8px;
+    background-color: rgb(197, 197, 197);
+  }
+ 
+  * {
+    box-sizing: border-box;
+  }
+ 
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+ 
+ 
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+ 
+  }
+ 
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+ 
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+ 
+  .container {
+    background-color: rgb(145, 144, 144);
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+ 
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+ 
+  .btn {
+    background-color: #343634;
+    color: white;
+    padding: 12px;
+    margin: 10px 10px;
+    border: none;
+    width: 48%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+ 
+ 
+  .btn:hover {
+    background-color: #343634;
+  }
+ 
+  a {
+    color: red;
+  }
+ 
+  hr {
+    border: 1px solid rgb(153, 153, 153);
+  }
+ 
+  .h1 {
+   background: rgb(197, 197, 197);
+   font-weight: bold;
+   text-align: center;
+   width: 100%;
+   height: 100px;
+ 
+   
+ }
+ .h2 {
+   background: rgb(197, 197, 197); 
+   float: left;
+   width: 7%;
+   height: 99px;
+   overflow:hidden;
+   position: absolute;
+ }
+ .h3 {
+    float: left;
+    width: 10%;
+    height: 1752px;
+   
+ }
+ .h4 {
+   float: left;
+   left: 10%;
+   color: white;
+   height: 1752px;
+   width: 80%;
+   padding: 0 10% 0 10%;
+   background: rgb(145, 144, 144);
+ }
+ .j4 {
+    float: left;
+    width: 10%;
+    height: 1752px;
+   
+ }
+ .h5 {
+   background: rgb(197, 197, 197);
+   float: left;   
+   height: 200px;
+   width: 100%;
+ }
+ .z{
+   width: 100%;
+   height: 100px;
+   padding: 0 20% 0 20%;
+ }
+ ul.nav{
+   margin-left: 1%;
+   margin-right: 1%;
+   padding-left: 0px;
+   list-style: none;
+ }
+ .nav li { 
+   float: left;
+   text-align: center;
+ 
+ }
+ ul.nav a {
+   display: block;
+   width: 9em;
+   padding:10px;
+   margin: 0 2px;
+   background-color: #f4f4f4;
+   border: 1px dashed #333;
+   text-decoration: none;
+   color: #333;
+   text-align: center;
+   margin-left: 15%;
+ }
+ ul.nav a:hover{
+   background-color: #333;
+   color: #f4f4f4;
+ }
+ .cont {
+   position: absolute;
+   top: 100px;
+ }
+ 
+ * {
+   box-sizing: border-box;
+ }
+ .header {
+   width: 100%;
+   height: 100px;
+   overflow: hidden;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 999;
+   background-color: rgb(197, 197, 197);
+       -webkit-transition: height 0.3s;
+       -moz-transition: height 0.3s;
+       -ms-transition: height 0.3s;
+       -o-transition: height 0.3s;
+   transition: height 0.3s;
+   }
+ .header h1#logo {
+   display: inline-block;
+   height: 100px;
+   float: left;
+   margin-top: 0px;
+   margin-left: 10px;
+   font-family: "Oswald", sans-serif;
+   font-size: 20px;
+   color: white;
+   font-weight: 40;
+       -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+       -ms-transition: all 0.3s;
+       -o-transition: all 0.3s;
+   transition: all 0.3s;
+   }
+ .header nav {
+   display: inline-block;
+   float: right;
+   margin-right: 50px;
+   }
+ .header nav ul li {
+   display: inline
+ }
+ .header nav ul li a {
+   line-height: 75px;
+   margin-left: 20px;
+   color: rgb(114, 112, 112);
+   font-weight: 700;
+   font-size: 18px;
+       -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+       -ms-transition: all 0.3s;
+       -o-transition: all 0.3s;
+   transition: all 0.3s;
+   background-color: rgb(197, 197, 197);
+   }
+ .header nav a:hover {
+   color: white;
+   }
+ .header.smaller {
+   height: 75px;
+   }
+ .header.smaller h1#logo {
+   width: 150px;
+   height: 65px;
+   font-size: 20px;
+   }
+ .header.smallernav a {
+   line-height: 75px;
+   }
+ .ry{
+   height: 100%;
+   background: rgb(197, 197, 197);
+   margin-top: 4%;
+   padding: 5px 200px 3px 40%;
+ }
+ .nb{
+     height: 70%;
+     width: 100%;
+ }
+.ml {
+    background-repeat: no-repeat;
+    float: left;
+}
+.lc{
+    position:absolute;
+    animation:round 16s infinite;
+    opacity:0;
+    width: 100%;
+    max-width: 58.9%;
+    max-height: 59.5%;
+    height: 100%;
+}
+.h6 {
+    line-height: 20px;
+    text-indent: 20px;
+    text-align: justify;
+	height:40%;
+    width: 100%;
+    margin-top: 2%;
+}
+.qw{
+    float: left;
+    width: 50%;
+    height: 250px;
+    font-size: 20px;
+}
+.qwe{
+    float: left;
+    width: 50%;
+    height: 250px;
+    padding: 0 10% 0 10%;
+}
